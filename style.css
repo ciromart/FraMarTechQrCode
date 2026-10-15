@@ -121,14 +121,24 @@ h1 {
   margin: 24px 0 16px;
 }
 
-.powered-by {
-  margin: 0;
-  font-size: 0.95rem;
+.powered-by-label {
+  margin: 0 0 8px;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
   color: var(--color-muted);
 }
 
-.powered-by strong {
-  color: var(--color-dark);
+.powered-by-logo {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 16px;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 1px solid rgba(28, 63, 95, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 .follow-us {
@@ -242,12 +252,9 @@ footer p {
   }
   .subtitle,
   footer p,
-  .powered-by,
+  .powered-by-label,
   .follow-us {
     color: #8ea2ad;
-  }
-  .powered-by strong {
-    color: #e7eef1;
   }
   .divider {
     border-top-color: rgba(255, 255, 255, 0.12);
