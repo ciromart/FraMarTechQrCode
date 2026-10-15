@@ -130,13 +130,15 @@ h1 {
 }
 
 .powered-by-logo {
-  width: 150px;
-  height: auto;
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
   display: block;
   margin: 0 auto 16px;
-  padding: 8px 12px;
-  border-radius: 12px;
+  border-radius: 50%;
   background: #ffffff;
+  border: 1px solid rgba(28, 63, 95, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 .follow-us {
